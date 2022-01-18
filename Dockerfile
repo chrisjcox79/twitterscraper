@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.9.8-alpine
 RUN apk add --update --no-cache g++ gcc libxslt-dev
 COPY . /app
 WORKDIR /app
